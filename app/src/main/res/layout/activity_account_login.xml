@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+    >
+
+        <ImageView
+            android:id="@+id/account_login_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/account_login_background" />
+
+        <ImageView
+            android:id="@+id/spotify_logo_top"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:layout_alignTop="@id/account_login_background"
+            android:layout_marginBottom="35dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/socialmusic_white_logo" />
+
+        <TextView
+            android:id="@+id/EmailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+
+            android:paddingStart="50dp"
+            android:layout_below="@id/spotify_logo_top"
+            android:layout_alignParentStart="true"
+
+            android:fontFamily="sans-serif"
+            android:text="@string/EmailTextView"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/EmailEditText"
+            android:layout_width="275dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="50dp"
+
+            android:paddingLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/EmailTextView"
+            android:background="@drawable/login_edit_text"
+            android:maxLength="30"
+            android:singleLine="true"
+            android:textColor="@color/TextBlack" />
+
+        <TextView
+            android:id="@+id/PasswordTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+
+            android:layout_marginStart="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/EmailEditText"
+            android:layout_alignParentStart="true"
+
+            android:fontFamily="sans-serif"
+            android:text="@string/passwordTextView"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/PasswordEditText"
+            android:layout_width="275dp"
+            android:layout_height="35dp"
+
+            android:paddingLeft="15dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/PasswordTextView"
+            android:background="@drawable/login_edit_text"
+            android:textColor="@color/TextBlack"
+            android:inputType="textPassword"
+            android:maxLength="15"
+            android:singleLine="true"/>
+
+        <CheckBox
+            android:id="@+id/ShowPasswordCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="15dp"
+            android:layout_below="@id/PasswordEditText"
+
+            android:textColor="@color/white"
+            android:buttonTint="@color/white"
+            android:text="@string/checkboxShowPassword" />
+
+        <Button
+            android:id="@+id/AccountLoginSignInAccountButton"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="50dp"
+
+            android:layout_below="@id/ShowPasswordCheckbox"
+
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+
+            android:text="@string/loginAccountButtonString"
+            android:background="@drawable/sign_in_button"
+            android:textColor="@color/white" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/GoogleSignInButton"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+
+            android:layout_below="@id/AccountLoginSignInAccountButton"
+            android:background="@drawable/create_account_button"/>
+
+
+        <Button
+            android:id="@+id/AccountLoginCreateAccountButton"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+
+            android:layout_centerInParent="true"
+            android:layout_below="@id/GoogleSignInButton"
+
+            android:layout_gravity="center"
+            android:text="@string/createAccountButtonString"
+            android:background="@drawable/create_account_button"
+            android:textColor="@color/white" />
+
+
+
+
+    </RelativeLayout>

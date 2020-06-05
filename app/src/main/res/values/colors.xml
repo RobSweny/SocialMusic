@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="WhiteAccent">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="Transwhite">#90FFFFFF</color>
+
+    <color name="TextBlack">#191414</color>
+    <color name="SpotifyGreen">#6AE368</color>
+    <color name="SpotifyDarkGreen">#45a644</color>
+    <color name="DarkGreenCompliment">#227175</color>
+
+    <color name="onBoardingPurple">#393359</color>
+
+
+    <!--OnBoard Colours-->
+    <color name="selected_dot">#2D9CDB</color>
+    <color name="idle_dot">#662D9CDB</color>
+    <color name="ob_header">#4A4A4A</color>
+    <color name="ob_desc">#4A4A4A</color>
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".google_maps.LocationServices"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:foregroundTint="#afaeae"
+
+    android:background="@drawable/account_login_background"
+
+    >
+
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/green_map_icon_location_services"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/location_services_title"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/location_services_body"
+        android:textSize="20sp"
+
+        />
+
+    <Button
+
+        android:id="@+id/EnableLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+
+        android:textColor="@color/white"
+        android:backgroundTint="@color/SpotifyDarkGreen"
+        android:layout_marginTop="15dp"
+        android:text="@string/location_services_button"
+        />
+
+    <TextView
+
+        android:id="@+id/BackToMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="@string/location_services_return"
+
+        android:textColor="@color/white"
+        android:textSize="15sp"
+
+        />
+
+</LinearLayout>

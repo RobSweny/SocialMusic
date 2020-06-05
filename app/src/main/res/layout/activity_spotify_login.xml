@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.rob.socialmusic.spotify.SpotifyLogin"
+    android:background="@drawable/account_login_background"
+    >
+
+    <!-- TRACK ARTWORK -->
+    <ImageView
+        android:id="@+id/AlbumArtImageView"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:scaleType="fitEnd"
+        android:adjustViewBounds="true"
+    />
+
+        <RelativeLayout
+            android:id="@+id/ProgressLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_centerHorizontal="true"
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/retrieving_artwork"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Retrieving\nSpotify Information"
+                android:textAlignment="center"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/progressBar"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/white"/>
+
+
+        </RelativeLayout>
+
+            <!-- TRACK NAME ++ ARTIST NAME -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TrackNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_centerHorizontal="true"
+            android:text="Track Name"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/ArtistNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:layout_below="@+id/TrackNameTextView"
+            android:text="Artist Name"
+            android:textSize="19sp"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+    <!-- SONG CURRENT TIME ++ SEEKBAR ++ SONG END TIME -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/LeftTime"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="0:00"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+        <!-- <SeekBar
+            android:id="@+id/MusicSeekBar"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:progressBackgroundTint="@color/white"
+            android:layout_toRightOf="@id/LeftTime" />
+        -->
+
+        <TextView
+            android:id="@+id/middleTimeSlash"
+            android:layout_width="15dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="0dp"
+            android:layout_toEndOf="@id/LeftTime"
+            android:text=" / "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/RightTime"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="0dp"
+            android:layout_toEndOf="@id/middleTimeSlash"
+            android:text="0:00"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignEnd="@+id/RightTime"
+            android:layout_marginEnd="-70dp">
+
+            <Button
+                android:id="@+id/FavouriteButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/heart_icon" />
+
+            <TextView
+                android:id="@+id/FavouriteButtonText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:text="Favourite"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <!-- PREVIOUS SONG ++ PLAY / PAUSE ++ NEXT SONG-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/PreviousButton"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/previous_logo"
+            android:layout_marginEnd="15dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/PlayPauseButton"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/pause_logo"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/PreviousButton"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/NextButton"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@id/PlayPauseButton"
+            android:background="@drawable/next_logo" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/BackButton"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/white_border"
+        android:text="Back to menu"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_margin="20dp" />
+
+</LinearLayout>

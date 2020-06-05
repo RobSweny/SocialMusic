@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-phenotype-15.0.1">
+    <CLASSES>
+      <root url="file://E:/Gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/3bc5303eaf2f7f2bfbc0cab4e119414c/res" />
+      <root url="jar://E:/Gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/3bc5303eaf2f7f2bfbc0cab4e119414c/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

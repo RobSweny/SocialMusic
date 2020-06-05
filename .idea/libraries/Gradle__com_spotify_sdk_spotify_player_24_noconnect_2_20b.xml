@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.spotify.sdk:spotify-player-24-noconnect-2.20b">
+    <CLASSES>
+      <root url="jar://E:/Gradle/caches/transforms-1/files-1.1/spotify-player-24-noconnect-2.20b.aar/5de1020b071bb60fed32f30ed6c418d3/jars/libs/jnihelpers-1.0.jar!/" />
+      <root url="file://E:/Gradle/caches/transforms-1/files-1.1/spotify-player-24-noconnect-2.20b.aar/5de1020b071bb60fed32f30ed6c418d3/res" />
+      <root url="jar://E:/Gradle/caches/transforms-1/files-1.1/spotify-player-24-noconnect-2.20b.aar/5de1020b071bb60fed32f30ed6c418d3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

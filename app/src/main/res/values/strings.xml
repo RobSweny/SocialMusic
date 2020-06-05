@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Social Music</string>
+    <string name="google_maps_api_key">AIzaSyB2tIINksy14WvNqIFHvzV967JD1ZLy3Ac</string>
+
+    <!-- activity account-creation.xml-->
+    <string name="AccountCreationTextView">Create\nAccount</string>
+    <string name="CreateAccountButtonString">Create</string>
+    <string name="BackButtonString">Back</string>
+
+
+    <!-- activity account login.xml-->
+    <string name="EmailTextView">Email: </string>
+    <string name="passwordTextView">Password: </string>
+    <string name="createAccountButtonString">Don\'t have an account? Sign Up</string>
+    <string name="loginAccountButtonString">Sign in</string>
+    <string name="checkboxShowPassword">Show Password</string>
+    <string name="AttemptLoginString">Attempting to\nlog into Spotify</string>
+    <string name="SuccessfulLoginString">Login Successful</string>
+
+    <!-- activity_google_maps_screen.xml-->
+    <string name="checkForUpdatedGoogleMapsString">Checking if\nGoogle Maps\nis up to date</string>
+
+    <!-- activity_main-screen.xml-->
+    <string name="logoffButtonString">Log off</string>
+    <string name="mainScreenSpotifyString">Log into\nSpotify</string>
+    <string name="mainScreenGoogleMapsString">Google\nMaps</string>
+    <string name="mainScreenPersonalAccountString">Personal\nAccount</string>
+    <string name="musicInAreaString">Find music in your area</string>
+    <string name="logOutString">Log Out</string>
+
+    <!-- OnBoard Screen. -->
+    <string name="onBoardingHeader1">START YOUR SPOTIFY APPLICATION</string>
+    <string name="onBoardingHeader2">GOOGLE MAPS</string>
+    <string name="onBoardingHeader3">SHARING YOUR MUSIC</string>
+    <string name="onBoardingHeader4">PRIVACY</string>
+
+    <string name="onBoardingStart">GET STARTED</string>
+
+    <string name="onBoardingDescription1">This app uses Spotify, this application must be running on your android phone to work correctly.</string>
+    <string name="onBoardingDescription2">This app also uses Google Maps, your location will be shared with other users.</string>
+    <string name="onBoardingDescription3">Your current Spotify song choices will be shown and visible to other uses on Google Maps.</string>
+    <string name="onBoardingDescription4">Your music will be shared with others users.\n\nYou can set your status to "Invisible" if you are uncomfortable with this!\n
+    (This will hide your music choices and location)</string>
+
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+
+    <!-- Location Services. -->
+    <string name="location_services_title">Location services</string>
+    <string name="location_services_body">In order for this application to work\ncorrectly, location services must be enabled.\nPlease click the below to enable</string>
+    <string name="location_services_button">Enable Location Services</string>
+    <string name="location_services_return">Back to Menu</string>
+    <string name="spotify_login_error_icon">Click the Icon above to open Spotify</string>
+    <string name="spotify_login_issue_connecting">Unable to connect to Spotify</string>
+</resources>

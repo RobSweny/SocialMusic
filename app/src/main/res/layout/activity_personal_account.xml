@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="15dp"
+        android:layout_gravity="center"
+        tools:context="com.example.rob.socialmusic.MainScreen"
+        android:background="@drawable/account_login_background"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Favourite Username"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Edit: "
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                />
+            <EditText
+                android:id="@+id/UsernameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/white"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/UsernameChangeButton"
+            android:layout_marginTop="5dp"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@drawable/white_border"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:text="Change Username"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favourite Songs"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/retrieving_tracks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retrieving Track"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        />
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+
+            <LinearLayout
+                android:id="@+id/ScrollListing"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:background="#10ffffff">
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    <Button
+        android:id="@+id/BackButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/white_border"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_margin="20dp" />
+
+
+</LinearLayout>

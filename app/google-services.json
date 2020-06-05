@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1015522767373",
+    "firebase_url": "https://social-spotify-20b8e.firebaseio.com",
+    "project_id": "social-spotify-20b8e",
+    "storage_bucket": "social-spotify-20b8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015522767373:android:5cb06fa3e7b81ba0",
+        "android_client_info": {
+          "package_name": "com.example.rob.socialmusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015522767373-cb3roick3qv293acie9fl9pp1ljja53s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rob.socialmusic",
+            "certificate_hash": "5665885fc51c113e0559208eadf84ba1f28fb245"
+          }
+        },
+        {
+          "client_id": "1015522767373-qrlh6g32c20kdt1cu30c98d80cfbuvft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL4_gLHITteKI_gZEanx5XTU2p8NoegRA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015522767373-5i7cgit3ktqksgtqk5pf7c32ikejtnnh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
