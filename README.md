@@ -12,7 +12,7 @@ User OnBoarding for first time login<br/>
 <img src=/SocialSpotifyImages/OnBoarding.PNG alt="alt text" width="450" height="700">
 
 #### User Account Login/Creation
-Allow users to login via email/pass or Google Sign In
+Allow users to login via email/pass or Google Sign In<br/>
 <img src=/SocialSpotifyImages/Account.PNG alt="alt text" width="600" height="350">
 
 #### Homepage
