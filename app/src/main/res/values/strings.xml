@@ -39,7 +39,7 @@
     <string name="onBoardingDescription1">This app uses Spotify, this application must be running on your android phone to work correctly.</string>
     <string name="onBoardingDescription2">This app also uses Google Maps, your location will be shared with other users.</string>
     <string name="onBoardingDescription3">Your current Spotify song choices will be shown and visible to other uses on Google Maps.</string>
-    <string name="onBoardingDescription4">Your music will be shared with others users.\n\nYou can set your status to "Invisible" if you are uncomfortable with this!\n
+    <string name="onBoardingDescription4">Your music will be shared with other users.\n\nYou can set your status to "Invisible" if you are uncomfortable with this!\n
     (This will hide your music choices and location)</string>
 
 
